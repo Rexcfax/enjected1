@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        :root {
+            --primary-color: #007bff;
+            --secondary-color: #0056b3;
+            --background-color: #f4f4f4;
+            --text-color: #333;
+            --card-bg: #fff;
+            --border-color: #ddd;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .payment {
+            background: var(--card-bg);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        .payment h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+
+        .payment p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        .crypto-info {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            background: #f9f9f9;
+            word-break: break-all;
+        }
+
+        .crypto-info p {
+            font-size: 1rem;
+            margin: 5px 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 12px 25px;
+            margin-top: 10px;
+            background: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background: var(--secondary-color);
+            transform: translateY(-3px);
+        }
+
+        .cta-button:active {
+            transform: translateY(1px);
+        }
+
+        .link-button {
+            display: inline-block;
+            padding: 12px 25px;
+            margin-top: 10px;
+            background: #ff8c00;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+        .link-button:hover {
+            background: #e07b00;
+            transform: translateY(-3px);
+        }
+
+        .link-button:active {
+            transform: translateY(1px);
+        }
+    </style>
+</head>
+<body>
+    <div class="payment">
+        <h2>Complete Your Payment</h2>
+        <p>Please pay <strong>$0.72</strong> to the Bitcoin address below. After completing the payment, visit <a href="https://dsc.gg/enjected" target="_blank" style="color: var(--primary-color); text-decoration: none;">dsc.gg/enjected</a> and type to Noras or Ks1xsirisss:</p>
+        <div class="crypto-info">
+            <p><strong>Bitcoin Address:</strong></p>
+            <p>bc1q2f2sew8q085mxr5ms26xlk5y62y3jpmtpegvzf3qyjkpyspu6jasun7yls</p>
+        </div>
+        <a href="https://www.bitcoin.com" class="cta-button" target="_blank">Pay with Bitcoin</a>
+        <a href="https://funpay.com/lots/offer?id=32533751" class="link-button" target="_blank">Go to FunPay</a>
+    </div>
+</body>
+</html>
