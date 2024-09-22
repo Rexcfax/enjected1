@@ -1,9 +1,10 @@
 {
-  "redirects": [
+  "version": 2,
+  "routes": [
     {
-      "source": "/payment",
-      "destination": "/payment.html",
-      "permanent": true
+      "src": "/payment",
+      "dest": "/payment.html",
+      "status": 301
     }
   ]
 }
