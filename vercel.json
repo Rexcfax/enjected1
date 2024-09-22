@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/payment",
+      "destination": "/payment.html",
+      "permanent": true
+    }
+  ]
+}
