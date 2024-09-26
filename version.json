@@ -1,5 +1,5 @@
 {
     "version": "1.1",
     "updateUrl": "https://enjected.vercel.app/enjected.rar",
-    "killSwitch": true
+    "killSwitch": false
 }
